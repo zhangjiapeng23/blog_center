@@ -1,0 +1,35 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE mapper-->
+<!--        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"-->
+<!--        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+<!--<mapper namespace="com.James.blog.mapper.RoleMapper">-->
+
+<!--    <insert id="insertRole" parameterType="Role">-->
+<!--        INSERT INTO `blog`.`bl_role` (name, remark, update_time, create_time) VALUES-->
+<!--        (#{name}, #{remark}, #{updateTime}, #{createTime})-->
+<!--    </insert>-->
+
+<!--    <update id="updateRole" parameterType="Role">-->
+<!--        UPDATE `blog`.`bl_role` SET name=#{name}, remark=#{remark}, update_time=#{updateTime},-->
+<!--        create_time=#{createTime}-->
+<!--        WHERE id=#{id}-->
+<!--    </update>-->
+
+<!--    <delete id="deleteRoleById" parameterType="int">-->
+<!--        DELETE FROM `blog`.`bl_role` WHERE id=#{id}-->
+<!--    </delete>-->
+
+<!--    <select id="getRoleList" parameterType="Role" resultType="Role">-->
+<!--        SELECT * FROM `blog`.`bl_role`;-->
+<!--    </select>-->
+
+<!--    <select id="getRoleByName" parameterType="String" resultType="Role">-->
+<!--        SELECT * FROM `blog`.`bl_role` WHERE name=#{name};-->
+<!--    </select>-->
+
+<!--    <select id="getRoleById" parameterType="int" resultType="Role">-->
+<!--        SELECT * FROM `blog`.`bl_role` WHERE id=#{id};-->
+<!--    </select>-->
+
+
+<!--</mapper>-->

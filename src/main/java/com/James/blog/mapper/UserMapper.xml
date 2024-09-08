@@ -1,0 +1,39 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE mapper-->
+<!--        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"-->
+<!--        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+<!--<mapper namespace="com.James.blog.mapper.UserMapper">-->
+
+<!--    <select id="userList" resultType="User">-->
+<!--        SELECT * FROM `blog`.`bl_user`;-->
+<!--    </select>-->
+
+<!--    <select id="getUserById" resultType="User" parameterType="int">-->
+<!--        SELECT * FROM `blog`.`bl_user` WHERE id=#{id};-->
+<!--    </select>-->
+
+<!--    <select id="getUserByName" resultType="User" parameterType="String">-->
+<!--        SELECT * FROM `blog`.`bl_user` WHERE username=#{username};-->
+<!--    </select>-->
+
+<!--    <select id="getUserByEmail" resultType="User" parameterType="String">-->
+<!--        SELECT * FROM `blog`.`bl_user` WHERE email=#{email}};-->
+<!--    </select>-->
+
+<!--    <select id="getUserByPhone" resultType="User" parameterType="String">-->
+<!--        SELECT * FROM `blog`.`bl_user` WHERE phone=#{phone};-->
+<!--    </select>-->
+
+<!--    <update id="updateUserById" parameterType="User">-->
+<!--        UPDATE `blog`.`bl_user` SET username=#{username},-->
+<!--        email=#{email}, phone=#{phone},-->
+<!--        password=#{password}-->
+<!--        WHERE id=#{id};-->
+<!--    </update>-->
+
+<!--    <insert id="insertUser" parameterType="User">-->
+<!--        INSERT INTO `blog`.`bl_user` (username, email, phone, password, create_time, update_time)-->
+<!--        VALUES (#{username}, #{email}, #{phone}, #{password}, #{create_time}, #{update_time});-->
+<!--    </insert>-->
+
+<!--</mapper>-->
