@@ -1,5 +1,7 @@
 
 spring:
+  application:
+    name: blog-center
   cloud:
     consul:
       port: 8500 # consul代理端口
